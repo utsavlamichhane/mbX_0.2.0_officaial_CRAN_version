@@ -1,0 +1,15 @@
+c2da658d83c223011729171bbab4c5f2 *DESCRIPTION
+6e0ffe839d89799b51ffd646987fc328 *LICENSE
+bd9115b23a454ab998526fc926a7a7ee *NAMESPACE
+14ccadc93092e447a44fcd45c263777e *R/mbX_functions.R
+b5370efb0fac69336fe54cf464e4f31f *R/zzz.R
+de356491d74b85fa344ab7a9bd51f272 *README.md
+8e4ea860d96e1e1a9945a9714f2c935b *build/vignette.rds
+56974e68850b8a5978375caa8bf54294 *inst/doc/mbX_vignette.Rmd
+9fda2aaec96d2bccc91752a8b32c4a7a *inst/doc/mbX_vignette.html
+e929c429f5ad276c791c74dcb1b17218 *inst/extdata/metadata.csv
+34b21de7b350938a3f455c7dee53d874 *inst/extdata/microbiome.csv
+05232e0ced181cced8855835eb81392e *man/ezclean.Rd
+40924404901889b31b8ebf99bbb9c60e *man/ezstat.Rd
+674871982b705e8e70028b078c4ccd70 *man/ezviz.Rd
+56974e68850b8a5978375caa8bf54294 *vignettes/mbX_vignette.Rmd
