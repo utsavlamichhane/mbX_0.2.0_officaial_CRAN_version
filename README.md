@@ -1,4 +1,4 @@
-Thank you for more than 1000s package download  (mbX_0.1.3)!
+Thank you for 1000s of package download  (mbX_0.1.3)!
 
 This is the official repo for the new version of our package, with added ezstat function.
 
