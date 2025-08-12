@@ -134,7 +134,7 @@ ezclean <- function(microbiome_data, metadata, level = "d") {
   just_metadata_df <- metadata_df[ , (colnames(metadata_df) %in% common_cols), drop = FALSE]
   
   
-  # Save the files
+  # Save the files, first stop, checking on the linux_utsav_dir files
   write.xlsx(just_microbiome_df, "just_microbiome.xlsx")
   write.xlsx(just_metadata_df, "just_metadata.xlsx")
   
