@@ -99,13 +99,13 @@ ezclean <- function(microbiome_data, metadata, level = "d") {
   }
   
   
-  # — sanitize first column values — 
+  # — sanitize first column values
   # replace spaces with underscores in whatever the first column is  
   first_col <- names(microbiome_df)[1]  
   microbiome_df[[first_col]] <- gsub("\\s+", "_", as.character(microbiome_df[[first_col]]))
   
   
-  # grab just the basename (no path, no extension)
+  # grab just the basename (no path, no extension: for ease of data handling)
   microbiome_base <- tools::file_path_sans_ext(basename(microbiome_data))
   
   # Define the levels map with all variations
