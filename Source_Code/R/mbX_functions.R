@@ -64,7 +64,7 @@ ezclean <- function(microbiome_data, metadata, level = "d") {
   }
   
   # — sanitize metadata column names & values —
-  # replace spaces in column names
+  # replace spaces in column names, second headache in the prev 1.1
   colnames(metadata_df) <- gsub("\\s+", "_", colnames(metadata_df))
   
   # for any character columns, replace spaces in the values
